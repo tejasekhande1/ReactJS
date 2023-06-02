@@ -1,0 +1,57 @@
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    background-color: aliceblue;
+}
+
+.image{
+    width : 350px;
+    aspect-ratio: 1/1;  /* square size */
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: ;
+}
+
+.movie{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.movie-info{
+    margin: 10px;
+}
+
+.actor{
+    text-decoration: underline;
+    color: #12B0E8;
+    font-weight: 400;
+}
+
+button{
+    margin-top: 2px;
+    padding: 5px 20px;
+    background-color: #b4161b21;
+    border: 1px solid #b4161b;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+button:hover{
+    border: 0;
+    background-color: rgb(41, 45, 48);
+    color: aliceblue;
+}
